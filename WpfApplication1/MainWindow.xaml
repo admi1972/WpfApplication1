@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="525" MouseMove="Window_Mousemove">
+    <Canvas Name="myCanvas" >
+        <Ellipse Width="20" Height="20" Fill="Red" Canvas.Left="200" Canvas.Top="150" Name="Ball" />
+        <Rectangle Width="5" Height="60" Fill="Blue" Canvas.Right="0" Name="RSchläger"></Rectangle>
+
+
+    </Canvas>
+</Window>
